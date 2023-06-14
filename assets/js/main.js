@@ -150,7 +150,7 @@
 
 					// Use main <img>'s src as this spotlight's background.
 						$this.css('background-image', 'url("' + $this.find('.image.main > img').attr('src') + '")');
-						console.log('url("' + $this.find('.image.main > img').attr('src'));
+						console.log(1);
 					// Side-specific scrollex tweaks.
 						if ($this.hasClass('top')) {
 
