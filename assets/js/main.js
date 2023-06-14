@@ -149,7 +149,7 @@
 					var top, bottom, mode;
 
 					// Use main <img>'s src as this spotlight's background.
-						$this.css('background-image', 'url("https://theqoder.com/' + $this.find('.image.main > img').attr('src') + '")');
+						$this.css('background-image', 'url("../../' + $this.find('.image.main > img').attr('src') + '")');
 					// Side-specific scrollex tweaks.
 						if ($this.hasClass('top')) {
 
